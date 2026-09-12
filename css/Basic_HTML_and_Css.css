@@ -1,0 +1,16 @@
+table {
+    background-color: lightgreen;
+    color: rgb(236, 75, 6);
+    border: 2px solid rgb(11, 11, 11);
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(194, 7, 122);
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: rgb(47, 0, 255);
+    color:white;
+}
