@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 40px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #3498db;
+    margin-top: 25px;
+}
+
+ul, ol {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+ul li::marker {
+    color: #3498db;
+}
+
+ol li::marker {
+    color: #e67e22;
+    font-weight: bold;
+}
